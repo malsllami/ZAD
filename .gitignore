@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+
+# الباك إند (Supabase) — يُدار محليًا فقط عبر Supabase CLI/لوحة التحكم، لا يُرفع لمستودع GitHub
+# العام (نفس سياسة alsallami-family — schema/ محلي فقط).
+# Backend (Supabase) is managed locally / via the Supabase dashboard only — never pushed to the
+# public GitHub repo (same policy as alsallami-family).
+/schema/
+/supabase/

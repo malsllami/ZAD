@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* حد أدنى فقط بهذه المرحلة — الهوية البصرية الفعلية (كريمي هادئ + ذهبي داكن) تُضبط لاحقًا
+   عند جلسة تصميم الواجهة (4 نماذج Mockup)، وليس الآن. */
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Tahoma, sans-serif;
+}
